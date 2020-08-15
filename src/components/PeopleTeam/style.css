@@ -1,0 +1,14 @@
+.team-player img {
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.team-player p {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 800px) {
+    .team-player a:hover i {
+        opacity: 0.5;
+    }
+}

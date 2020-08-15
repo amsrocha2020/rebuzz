@@ -1,0 +1,35 @@
+.subfooter {
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+.subfooter p {
+    font-size: 12px !important;
+}
+
+.subfooter a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.subfooter a:hover {
+    color: var(--icon-color);
+}
+
+.subfooter ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+@media (min-width: 800px) {
+    .subfooter .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .subfooter a {
+        margin-right: 10px;
+    }
+}

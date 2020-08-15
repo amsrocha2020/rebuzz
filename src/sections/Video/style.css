@@ -1,0 +1,25 @@
+.video {
+  text-align: center;
+  background-image: url("../../assets/video_bg.jpg");
+  background-position: center;
+  padding: 60px 0;
+}
+
+.video .icon {
+  color: var(--icon-color);
+  margin-bottom: 40px;
+}
+
+.video img {
+  width: 100%;
+}
+
+.video-text {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 800px) {
+  .video img {
+    width: 60%;
+  }
+}

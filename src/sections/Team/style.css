@@ -1,0 +1,49 @@
+.team {
+  padding: 60px 0;
+  background: #fff;
+  color: #000;
+}
+
+.team .icon-team {
+  text-align: center;
+  color: var(--icon-color);
+}
+
+.team h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.team h3 {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.team-player {
+  margin-bottom: 30px;
+}
+
+.fa-linkedin {
+  color: var(--icon-color);
+}
+
+@media (min-width: 800px) {
+  .team-wrapper {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    gap: 5px;
+  }
+  .team-player {
+    display: inline-block;
+    display: box;
+    width: 33%;
+    
+  }
+}

@@ -45,7 +45,25 @@
   margin-right: 5px;
 }
 
-@media (min-width: 800px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .footer {
+    padding: 60px 0 0 0;
+    background-color: #f1f1f1;
+    background-image: url(https://rebuzz.io/wp-content/uploads/2018/10/background-app.jpg);
+    background-position-x: center;
+    background-size: cover;
+  }
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer .container div {
+    flex: 0 48%;
+  }
+}
+
+@media (min-width: 1024px) {
   .footer {
     padding: 60px 0 0 0;
     background-color: #f1f1f1;
@@ -78,6 +96,6 @@
     display: inline-flex;
   }
   .footer-buttons a {
-      display: inline-table;
+    display: inline-table;
   }
 }

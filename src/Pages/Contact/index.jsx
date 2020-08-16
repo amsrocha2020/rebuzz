@@ -13,31 +13,31 @@ const Contact = () => {
         <div className="wrapper">
           <div className="form-contact">
             <form>
-              <div class="group">
+              <div className="group">
                 <input type="text" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
+                <span className="highlight"></span>
+                <span className="bar"></span>
                 <label>Your Name (required)</label>
               </div>
 
-              <div class="group">
+              <div className="group">
                 <input type="text" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
+                <span className="highlight"></span>
+                <span className="bar"></span>
                 <label>Your Email (required)</label>
               </div>
 
-              <div class="group">
+              <div className="group">
                 <input type="text" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
+                <span className="highlight"></span>
+                <span className="bar"></span>
                 <label>Subject</label>
               </div>
 
-              <div class="group">
+              <div className="group">
                 <textarea type="text" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
+                <span className="highlight"></span>
+                <span className="bar"></span>
                 <label>Your Message</label>
               </div>
 

@@ -29,7 +29,23 @@
   color: var(--icon-color);
 }
 
-@media (min-width: 800px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .team-wrapper {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    grid-gap: 5px;
+    gap: 5px;
+}
+  .team-player {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
   .team-wrapper {
     display: flex;
     align-items: left;
@@ -44,6 +60,8 @@
     display: inline-block;
     display: box;
     width: 33%;
-    
+  }
+  .team-position {
+    margin: 0;
   }
 }

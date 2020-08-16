@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className="button-download">
               <a href="https://play.google.com/store/apps/details?id=app.com.rebuzz"><i className="widget_button_2_left fa fa-android"></i> <span className="google-text">Get in</span> Google Play</a>
-              <a href="https://apps.apple.com/us/app/rebuzz-gamified-social-network/id1499941356"><i className="widget_button_2_right fa fa-apple"></i><span className="apple-text">Available on the</span> App Stor</a>
+              <a href="https://apps.apple.com/us/app/rebuzz-gamified-social-network/id1499941356"><i className="widget_button_2_right fa fa-apple"></i><span className="apple-text">Available on the</span> App Store</a>
             </div>
           </div>
         </div>
